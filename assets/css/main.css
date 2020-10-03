@@ -7,3 +7,18 @@ body {
     font-family: 'Lato', sans-serif;
     color: #CFD0D0;
 }
+
+.header {
+    padding: 100px;
+}
+
+.header .title {
+    font-weight: bold;
+    font-size: 50px;
+
+    color: #ffffff;
+}
+
+.btn button {
+
+}
