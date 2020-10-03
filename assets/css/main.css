@@ -1,1 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
 
+    background-color: #111417;
+
+    font-family: 'Lato', sans-serif;
+    color: #CFD0D0;
+}
