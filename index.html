@@ -34,11 +34,12 @@
 
     <!-- Imports -->
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/fonts/fonts.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- End of head -->
 </head>
 
-<body>
+<body onload="typewriter();">
 
 <nav id="navigation-bar">
     <ul>
@@ -55,10 +56,29 @@
 </nav>
 
 <header id="site-heading" class="header">
-    <p class="title" id="header-title-text">
-        On a mission to develop the cutest brand.
-    </p>
-    <button>Button Text</button>
+    <h1 class="title">AstolfoDev</h1>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+    <div class="card">
+        <div class="titlebar">
+            <span id="close"></span>
+            <span id="minimise"></span>
+            <span id="maximise"></span>
+            <p class="titlebar" id="filename"> astolfodev @ astolfo_web.sh</p>
+        </div>
+        <div class="console">
+            <p>
+                <span id="console-line-1">&nbsp;~ astolfodev$ </span>
+                <br>
+                <span id="console-line-2">&nbsp;</span>
+                <br>
+                <span id="empty-line">&nbsp;</span>
+                <br>
+                <span id="console-line-3">&nbsp;</span>
+                <br>
+                <span id="console-line-4">&nbsp;</span>
+            </p>
+        </div>
+    </div>
 </header>
 
 <main id="main-content">
@@ -79,7 +99,7 @@
     </p>
 </footer>
 
-<script src="./assets/js/main.js"></script>
+<script src="assets/js/console.js"></script>
 
 </body>
 </html>

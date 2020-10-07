@@ -3,6 +3,10 @@ body {
     padding: 0;
 
     background-color: #111417;
+    background-image: url("../media/img/background/dots.png");
+
+    background-size: contain;
+
 
     font-family: 'Lato', sans-serif;
     color: #CFD0D0;
@@ -10,6 +14,17 @@ body {
 
 .header {
     padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header .title, .header .subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
 }
 
 .header .title {
@@ -19,6 +34,66 @@ body {
     color: #ffffff;
 }
 
-.btn button {
+.header .card {
+    padding: 0;
+    border-radius: 15px;
+    width: 500px;
+    background-color: #0c0e0f;
+}
 
+.avatar {
+    border-radius: 50%;
+}
+
+
+
+
+
+.titlebar {
+    padding: 10px;
+
+    border-radius:  15px 15px 0px 0px;
+    background-color: #0a0b0c;
+}
+.titlebar #close {
+    height: 15px;
+    width: 15px;
+
+    border-radius: 50%;
+    display: inline-block;
+
+    background-color: #cf5e5e;
+}
+
+.titlebar #minimise {
+    height: 15px;
+    width: 15px;
+
+    border-radius: 50%;
+    display: inline-block;
+
+    background-color: #cfb35e;
+}
+
+.titlebar #maximise {
+    height: 15px;
+    width: 15px;
+
+    border-radius: 50%;
+    display: inline-block;
+
+    background-color: #76cf5e;
+}
+
+.titlebar #filename {
+    display: inline;
+    font-size: 15px;
+}
+
+
+
+.console {
+    font-family: "Menlo Regular", monospace;
+    font-size: 12.5px;
+    padding: 15px 5px 15px 15px;
 }
