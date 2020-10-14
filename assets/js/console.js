@@ -53,7 +53,7 @@ const typewriter = async () => {
         setTimeout(
             () => {
                 document.getElementById("console-line-3").innerHTML = "[Rust, Java, Node.js, Dart, Python, HTML, CSS]";
-                document.getElementById("console-line-4").innerHTML = "<span id=\"console-easteregg\" style=\"color: black; background-color: white;\">/Users/astolfodev/secret_stash/languages.txt (END)</span>"
+                document.getElementById("console-line-4").innerHTML = "<span id=\"console-easteregg\" style=\"color: black; background-color: #efefef;\">/Users/astolfodev/secret_stash/languages.txt (END)</span>"
             },
             175
         )
